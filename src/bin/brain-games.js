@@ -1,7 +1,11 @@
 #!/usr/bin/env node
 
-import { userName } from './index.js';
+import { greeting, userName } from '..';
 
-console.log('Welcome to the Brain Games!')
+greeting();
+const name = userName();
 
-console.log(`Hello, ${userName}!`);
+console.log(`Hello, ${name}!`);
+
+
+
