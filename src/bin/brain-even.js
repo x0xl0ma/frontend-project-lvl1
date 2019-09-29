@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { greeting, rules, randomNum, question, yourAnswer, isEven, isCorrectAnswer, firstGame } from '..';
+import { greeting, userName, rules, randomNum, question, yourAnswer, isEven, isCorrectAnswer, firstGame } from '..';
 
 greeting();
 const name = userName();
