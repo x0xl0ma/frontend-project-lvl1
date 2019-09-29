@@ -1,14 +1,9 @@
 #!/usr/bin/env node
 
-import { greeting, userName, rules, randomNum, question, yourAnswer, isEven, isCorrectAnswer, firstGame } from '..';
+import { greeting, userName, rules, firstGame } from '..';
 
 greeting();
 const name = userName();
 console.log(`Hello, ${name}!`);
 rules();
-randomNum();
-question();
-yourAnswer();
-isEven();
-isCorrectAnswer();
 firstGame();
