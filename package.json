@@ -4,8 +4,9 @@
   "description": "My first project",
   "main": "",
   "bin": {
-    "brain-games": "./src/bin/brain-games.js",
-    "brain-even": "./src/bin/brain-even.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js"
   },
   "files": [
     "dist"

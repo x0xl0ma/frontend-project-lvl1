@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-import { greeting, userName, rules, firstGame } from '..';
+import evenGame from '../games/even';
 
-greeting();
-
-firstGame();
+evenGame();
