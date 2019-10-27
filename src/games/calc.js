@@ -32,5 +32,5 @@ const getQuestionAnswer = () => {
     return cons(question, correctAnswer)
 };
 
-export const calcGame = () => startGame(description, getQuestionAnswer);
+export const calcGame = startGame(description, getQuestionAnswer);
 
