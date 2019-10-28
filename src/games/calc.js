@@ -28,9 +28,9 @@ const getQuestionAnswer = () => {
     const num2 = getRandom(1, 99);
     const getMathSign = mathSign();
     const question = `${num1} ${getMathSign} ${num2}`;
-    const correctAnswer = getCorrectAnswer(num1, getMathSign, num2);
+    const correctAnswer = getCorrectAnswer(num1, num2, getMathSign);
     return cons(question, correctAnswer)
 };
 
-export const calcGame = startGame(description, getQuestionAnswer);
+export default () => startGame(description, getQuestionAnswer);
 
