@@ -23,6 +23,13 @@ $ brain-calc
 [![asciicast](https://asciinema.org/a/zYcok34ZuqkVVUZG9CsfRro5j.svg)](https://asciinema.org/a/zYcok34ZuqkVVUZG9CsfRro5j)
 
 
+Brain GCD 
+
+$ brain-gcd
+
+[![asciicast](https://asciinema.org/a/RfdgLlQrIbxJhZRp6dmSJcMDo.svg)](https://asciinema.org/a/RfdgLlQrIbxJhZRp6dmSJcMDo)
+
+
 
 
 
