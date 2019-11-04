@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/x0xl0ma/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/x0xl0ma/frontend-project-lvl1)
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/51e812f8880da541b7be/maintainability)](https://codeclimate.com/github/x0xl0ma/frontend-project-lvl1/maintainability)
+
 Welcome to the Brain Games! 
 
 install Brain Games 
