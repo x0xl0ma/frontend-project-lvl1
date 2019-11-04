@@ -19,3 +19,6 @@ brain-even:
 
 brain-calc:
 	npx babel-node src/bin/brain-calc.js
+
+brain-progression:
+	npx babel-node src/bin/brain-progression.js
