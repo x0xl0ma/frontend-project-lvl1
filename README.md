@@ -6,7 +6,7 @@ install Brain Games
 
 $ sudo npm link
 
-[![asciicast](https://asciinema.org/a/DFsZHWbl2rDZmB78DjEp9MstJ.svg)](https://asciinema.org/a/DFsZHWbl2rDZmB78DjEp9MstJ)
+[![asciicast](https://asciinema.org/a/PBomBLtPcSMSzrLXg7ePXLDA0.svg)](https://asciinema.org/a/PBomBLtPcSMSzrLXg7ePXLDA0)
 
 
 Brain Even game
@@ -36,5 +36,13 @@ $ brain-progression
 
 
 [![asciicast](https://asciinema.org/a/VJFj3E23muogXaJ4mkEt5jxZ2.svg)](https://asciinema.org/a/VJFj3E23muogXaJ4mkEt5jxZ2)
+
+
+Brain Prime game 
+
+$ brain-prime 
+
+[![asciicast](https://asciinema.org/a/1FJEHSg0RH4lbLG79Ouc13s6k.svg)](https://asciinema.org/a/1FJEHSg0RH4lbLG79Ouc13s6k)
+
 
 
