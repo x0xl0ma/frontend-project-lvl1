@@ -38,3 +38,5 @@ const getQuestionAnswer = () => {
     const correctAnswer = String(getCorrectAnswer(num1, num2, sign));
     return cons(question, correctAnswer);
 };
+
+export default () => startGame(description, getQuestionAnswer);
