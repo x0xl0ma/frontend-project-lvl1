@@ -2,7 +2,11 @@
   "name": "frontend-project-lvl1",
   "version": "1.0.0",
   "description": "My first project",
-  "main": "",
+  "main": "index.js",
+  "keywords": [
+    "games",
+    "hexlet"
+  ],
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
     "brain-even": "dist/bin/brain-even.js",
@@ -30,20 +34,18 @@
   },
   "homepage": "https://github.com/x0xl0ma/frontend-project-lvl1#readme",
   "devDependencies": {
-    "@babel/cli": "^7.6.0",
-    "@babel/core": "^7.6.0",
-    "@babel/node": "^7.6.1",
-    "@babel/preset-env": "^7.6.0",
-    "eslint": "^6.4.0"
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.18.2"
   },
   "dependencies": {
     "@hexlet/pairs": "^1.0.10",
-    "babel-eslint": "^10.0.3",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-babel": "^5.3.0",
-    "eslint-plugin-import": "^2.18.2",
-    "hexlet-pairs-data": "^1.0.8",
-    "readline-sync": "^1.4.10",
-    "registry-url": "^5.1.0"
+    "readline-sync": "^1.4.10"
   }
 }

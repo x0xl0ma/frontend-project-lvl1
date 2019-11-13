@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
-import { cons, car, cdr, toString } from '@hexlet/pairs';
-import { startGame, getRandom } from '..';
+import { cons } from '@hexlet/pairs';
+import startGame from '..';
+import getRandom from '../utils';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
@@ -18,7 +19,6 @@ const getQuestionAnswer = () => {
     const correctAnswer = String(gcd(num1, num2));
     return cons(question, correctAnswer)
 };
-
 
 export default () => startGame(description, getQuestionAnswer);
 

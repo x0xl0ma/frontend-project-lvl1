@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
-import { cons, car, cdr, toString } from '@hexlet/pairs';
-import { startGame, getRandom } from '..';
+import { cons } from '@hexlet/pairs';
+import startGame from '..';
+import getRandom from '../utils';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -22,7 +23,6 @@ const getQuestionAnswer = () => {
   const correctAnswer = isPrime(question) ? 'yes' : 'no';
   return cons(question, correctAnswer);
 };
-
 
 export default () => startGame(description, getQuestionAnswer);
 
