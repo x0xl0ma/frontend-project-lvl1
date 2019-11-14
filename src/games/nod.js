@@ -13,13 +13,11 @@ const gcd = (num1, num2) => {
 };
 
 const getQuestionAnswer = () => {
-    const num1 = getRandom(1, 99);
-    const num2 = getRandom(1, 99);
-    const question = `${num1} ${num2}`;
-    const correctAnswer = String(gcd(num1, num2));
-    return cons(question, correctAnswer)
+  const num1 = getRandom(1, 99);
+  const num2 = getRandom(1, 99);
+  const question = `${num1} ${num2}`;
+  const correctAnswer = String(gcd(num1, num2));
+  return cons(question, correctAnswer);
 };
 
 export default () => startGame(description, getQuestionAnswer);
-
-

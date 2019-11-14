@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { cons, car, cdr } from '@hexlet/pairs';
+import { car, cdr } from '@hexlet/pairs';
 
 const correctAnswersCount = 3;
 export default (description, getQuestionAnswer) => {
@@ -25,6 +25,3 @@ export default (description, getQuestionAnswer) => {
   }
   console.log(`Congratulations, ${userName}!`);
 };
-
-
-

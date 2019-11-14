@@ -25,4 +25,3 @@ const getQuestionAnswer = () => {
 };
 
 export default () => startGame(description, getQuestionAnswer);
-

@@ -19,9 +19,9 @@ const getQuestionAnswer = () => {
       question = `${question} ${firstNum + i * diff}`.trim();
     }
   }
-  const correctAnswer = String(firstNum + hiddenNum * diff)
+  const correctAnswer = String(firstNum + hiddenNum * diff);
 
-  return cons(question, correctAnswer)
+  return cons(question, correctAnswer);
 };
 
 export default () => startGame(description, getQuestionAnswer);
